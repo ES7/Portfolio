@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c7ba8d851d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="Container">
+        <nav>
+            <img src="images/logo.PNG" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Machine Learning Engineer</p>
+            <h1>Hi, I'm <span>Ebad Sayed</span>.</h1>
+        </div>
+    </div>
+</div>
+<!-- ------------------------about---------------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/photo_bg.JPG">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am currently a Final Year Undergraduate at IIT (ISM) Dhanbad.
+                    I am an enthusiastic learner and explorer, especially in the field of
+                    Machine Learning / Artificial Intelligence , also in Image Processing and Robotics.
+                    I am excited to meet like-minded people to work and learn with them expanding my
+                    horizon and contributing the best out of me.
+                    In my off time I like to do video editing and animation.</p>
+                
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>AI/ML</span><br>Large Language Models and Natural Language Processing</li>
+                            <li><span>Computer Vision</span><br>Image Processing and Deep Learning</li>
+                            <li><span>Illustration and Character Design</span><br>Doodling</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May'24 - Present</span><br>AI/ML Engineer at TEXMiN</li>
+                            <li><span>June'23-August'23</span><br>AI Engineer at Korrect.ai</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2026</span><br>Integrated Master of Technology in Applied Geology from IIT (ISM) Dhanbad</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------------------------------------------services-------------------------------------------------->
+<div id="ervices">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>AI/ML</h2>
+                <p>Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Debitis perspiciatis
+                    ex, temporibus quasi minima asperiores
+                    corporis quas quo odio consequatur non dolore.
+                    Repellendus sapiente quam porro unde asperiores
+                    iusto voluptates.</p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Robotics</h2>
+                <p>Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Debitis perspiciatis
+                    ex, temporibus quasi minima asperiores
+                    corporis quas quo odio consequatur non dolore.
+                    Repellendus sapiente quam porro unde asperiores
+                    iusto voluptates.</p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-palette"></i>
+                <h2>Designing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Debitis perspiciatis
+                    ex, temporibus quasi minima asperiores
+                    corporis quas quo odio consequatur non dolore.
+                    Repellendus sapiente quam porro unde asperiores
+                    iusto voluptates.</p>
+                    <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------------------portfolio-------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-titles">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.JPEG">
+                <div class="layer">
+                    <h3>ATS Resume</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure exercitationem repellat quod laborum quas ipsum .</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.JPEG">
+                <div class="layer">
+                    <h3>Pluto Drone Swarm Challenge</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure exercitationem repellat quod laborum quas ipsum .</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.JPEG">
+                <div class="layer">
+                    <h3>Stock Predictor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure exercitationem repellat quod laborum quas ipsum .</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------------------------------------------contact---------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>sayedebad.777@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>8097997636</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100076093777319&sk=about_work_and_education"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ebadsayed_777/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ebad-sayed-0861a6227/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/ES7"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="images/DSResume.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function  opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzWZIFSvKDmA9_KgJNvgwg-rpG2MdnwHkmJrkLi7rqM702FcXKfylyE3J10lZ1AQcYzOA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
