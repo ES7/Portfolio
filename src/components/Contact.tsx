@@ -95,7 +95,7 @@ const Contact = () => {
 
                 <div className="flex items-center">
                   <div className="bg-blue-600 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
-                    <img src={`${import.meta.env.BASE_URL}\aa2.png`} alt="Logo" className="w-12 h-12 object-contain" />
+                    <img src={`${import.meta.env.BASE_URL}\aa2.png`} alt="Logo" className="object-contain" />
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold">VokeAI</h3>
@@ -113,7 +113,7 @@ const Contact = () => {
 
                 <div className="flex items-center">
                   <div className="bg-blue-600 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
-                    <Palette size={24} className="w-12 h-12 text-white" />
+                    <Palette size={24} className="text-white" />
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold">Adorable Jallad</h3>
