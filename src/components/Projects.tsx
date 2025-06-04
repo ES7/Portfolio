@@ -15,7 +15,7 @@ const Projects = () => {
     {
       title: "Stable Diffusion from Scratch",
       description: "Implemented Stable Diffusion model from scratch using PyTorch and implemented Fine-Tuned versions of the model to run locally.",
-      image: "/p2.png",
+      image: "\p2.png",
       tags: ["PyTorch", "Vision", "LLMs", "AI"],
       github: "https://github.com/ES7/Stable-Diffusion-from-Scratch",
       // demo: "https://demo.ebadhsayed.com/medical"
@@ -23,7 +23,7 @@ const Projects = () => {
     {
       title: "The AI-Orchestra",
       description: "Implemented RNN, LSTM, GRU networks to generate melodies, explained the entire process of music generation and the Music Theory.",
-      image: "/p3.png",
+      image: "\p3.png",
       tags: ["Deep Learning", "Music", "RNN", "LSTM", "GRU"],
       github: "https://github.com/ES7/The-AI-Orchestra",
       // demo: "https://demo.ebadhsayed.com/detection"
