@@ -93,11 +93,11 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="flex items-center">
-                  <div className="bg-blue-600 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
-                    <img src={`${import.meta.env.BASE_URL}\aa2.png`} alt="Logo" className="w-6 h-6 sm:w-6 sm:h-6 object-contain flex-shrink-0" />
+                <div className="flex items-center w-full">
+                  <div className="bg-blue-600 min-w-[48px] min-h-[48px] w-12 h-12 rounded-lg flex items-center justify-center mr-4 shrink-0">
+                    <img src={`${import.meta.env.BASE_URL}\aa2.png`} alt="Logo" className="w-6 h-6 object-contain" />
                   </div>
-                  <div>
+                  <div className="flex-1">
                     <h3 className="text-lg font-semibold">VokeAI</h3>
                     <p className="text-gray-300">AI-powered startup transforming communication skills.</p>
                     <a
@@ -111,11 +111,11 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="flex items-center">
-                  <div className="bg-blue-600 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
-                    <Palette size={24} className="text-white w-6 h-6 sm:w-6 sm:h-6 flex-shrink-0" />
+                <div className="flex items-center w-full">
+                  <div className="bg-blue-600 min-w-[48px] min-h-[48px] w-12 h-12 rounded-lg flex items-center justify-center mr-4 shrink-0">
+                    <Palette size={24} />
                   </div>
-                  <div>
+                  <div className='flex-1'>
                     <h3 className="text-lg font-semibold">Adorable Jallad</h3>
                     <p className="text-gray-300">Creative space for animation, doodling, and edits.</p>
                     <a
