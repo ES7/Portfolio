@@ -88,7 +88,7 @@ const About = () => {
               </div> */}
               <div className="relative w-full h-64 rounded-xl overflow-hidden">
                 <img 
-                  src="/profile.png"
+                  src="\profile.png"
                   alt="Profile" 
                   className="w-full h-full object-cover rounded-xl"
                 />
