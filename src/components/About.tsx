@@ -88,7 +88,7 @@ const About = () => {
               </div> */}
               <div className="relative w-full h-64 rounded-xl overflow-hidden">
                 <img 
-                  src="/public/profile.png"
+                  src={`${import.meta.env.BASE_URL}\profile.png`} 
                   alt="Profile" 
                   className="w-full h-full object-cover rounded-xl"
                 />
