@@ -58,14 +58,15 @@ const About = () => {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">My Journey</h3>
                 <p className="text-gray-600 mb-4">
-                  Currently pursuing my undergraduate degree at one of India's premier technical institutes, I've been deeply immersed in cutting-edge research and practical applications of AI/ML.
-                  {/* My endeavors span from developing AI/ML applications to crafting artistic multimedia experiences, consistently pushing the boundaries of technological innovation. */}
+                  Currently pursuing my undergraduate degree at one of India's premier technical institutes, I've been deeply engaged in the world of AI/ML—balancing hands-on research with real-world applications.
+                  </p>
+                <p className="text-gray-600 mb-6">
+                  As the Co-Founder & CTO of VokeAI, I’m building interactive AI systems that help people improve public speaking, interview performance, and everyday communication.
                 </p>
                 <p className="text-gray-600 mb-6">
-                  I'm also the Co-Founder of VokeAI, where we're building interactive tools that help users improve public speaking, interview performance and day-to-day communication, all powered by real-time feedback and generative AI.
-                  Beyond tech, I'm passionate about animation, doodling and video editing; creative outlets that fuel my design thinking.
+                  Beyond this, I’m passionate about animation, doodling, and video editing—creative outlets that influence how I design user experiences. I also run Rift, a college-focused clothing merchandise brand where I apply the same creativity and community-driven thinking.
                 </p>
-                <div className="flex space-x-4">
+                {/* <div className="flex space-x-4">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-blue-600">50+</div>
                     <div className="text-sm text-gray-600">Projects</div>
@@ -78,7 +79,7 @@ const About = () => {
                     <div className="text-2xl font-bold text-blue-600">10+</div>
                     <div className="text-sm text-gray-600">Technologies</div>
                   </div>
-                </div>
+                </div> */}
               </div>
               {/* <div className="relative">
                 <div className="w-full h-64 bg-gradient-to-br from-blue-500 to-teal-500 rounded-xl"></div>
@@ -88,7 +89,7 @@ const About = () => {
               </div> */}
               <div className="relative w-full h-64 rounded-xl overflow-hidden">
                 <img 
-                  src={`${import.meta.env.BASE_URL}\profile.png`} 
+                  src={`${import.meta.env.BASE_URL}\profile2.JPG`} 
                   alt="Profile" 
                   className="w-full h-full object-cover rounded-xl"
                 />

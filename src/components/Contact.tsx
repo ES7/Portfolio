@@ -69,7 +69,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold">Email</h3>
-                    <p className="text-gray-300">sayedebad.777@gmail.com</p>
+                    <p className="text-gray-300">ebad7work@gmail.com</p>
                   </div>
                 </div>
                 
@@ -111,20 +111,22 @@ const Contact = () => {
                   </div>
                 </div>
 
+                
+
                 <div className="flex items-center w-full">
                   <div className="bg-blue-600 min-w-[48px] min-h-[48px] w-12 h-12 rounded-lg flex items-center justify-center mr-4 shrink-0">
-                    <Palette size={24} />
+                    <img src={`${import.meta.env.BASE_URL}\aa4.png`} alt="Logo" className="w-8 h-8 object-contain" />
                   </div>
                   <div className='flex-1'>
-                    <h3 className="text-lg font-semibold">Adorable Jallad</h3>
-                    <p className="text-gray-300">Creative space for animation, doodling, and edits.</p>
+                    <h3 className="text-lg font-semibold">Rift Wear</h3>
+                    <p className="text-gray-300">College-focused clothing merchandise brand.</p>
                     <a
-                      href="https://instagram.com/adorable_jallad"
+                      href="https://riftwear.in"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-blue-400 hover:underline text-sm"
                     >
-                      → View on Instagram
+                      → Visit site
                     </a>
                   </div>
                 </div>
