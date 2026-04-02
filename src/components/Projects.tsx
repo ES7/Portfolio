@@ -18,6 +18,7 @@ const Projects = () => {
       image: "\p2.png",
       tags: ["Agentic AI", "Gemini", "GPT", "Multi Agent Systems"],
       github: "https://github.com/ES7/Github-Repo-Analyst-Agent",
+<<<<<<< Updated upstream
       // demo: "https://demo.ebadhsayed.com/medical"
     },
     {
@@ -28,6 +29,18 @@ const Projects = () => {
       github: "https://github.com/ES7/Stable-Diffusion-from-Scratch",
       // demo: "https://demo.ebadhsayed.com/medical"
     }
+=======
+      // demo: "https://demo.ebadhsayed.com/medical"
+    },
+    {
+      title: "Stable Diffusion from Scratch",
+      description: "Implemented Stable Diffusion model from scratch using PyTorch and implemented Fine-Tuned versions of the model to run locally.",
+      image: "\p3.png",
+      tags: ["PyTorch", "Vision", "LLMs", "AI"],
+      github: "https://github.com/ES7/Stable-Diffusion-from-Scratch",
+      // demo: "https://demo.ebadhsayed.com/medical"
+    },
+>>>>>>> Stashed changes
   ];
 
   return (

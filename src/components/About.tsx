@@ -57,11 +57,14 @@ const About = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">My Journey</h3>
-                <p className="text-gray-600 mb-4">
+                {/* <p className="text-gray-600 mb-4">
                   Currently pursuing my undergraduate degree at one of India's premier technical institutes, I've been deeply engaged in the world of AI/ML—balancing hands-on research with real-world applications.
-                  </p>
+                  </p> */}
+                <p className="text-gray-600 mb-4">
+                  I've been deeply engaged in the world of AI/ML—balancing hands-on research with real-world applications.
+                </p>
                 <p className="text-gray-600 mb-6">
-                  As the Co-Founder & CTO of VokeAI, I’m building interactive AI systems that help people improve public speaking, interview performance, and everyday communication.
+                  As the Co-Founder of VokeAI, I’m building interactive AI systems that help people improve public speaking, interview performance, and everyday communication.
                 </p>
                 <p className="text-gray-600 mb-6">
                   Beyond this, I’m passionate about animation, doodling, and video editing—creative outlets that influence how I design user experiences. I also run Rift, a college-focused clothing merchandise brand where I apply the same creativity and community-driven thinking.

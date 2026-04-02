@@ -15,11 +15,11 @@ const Hero = () => {
               Ebad Sayed
             </h1>
             <div className="text-xl md:text-2xl text-gray-300 mb-4">
-              Machine Learning Engineer & AI Innovator
+              AI Engineer & Innovator
             </div>
             <div className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
-              Co-Founder and CTO of VokeAI, Final-year undergraduate at IIT (ISM) Dhanbad, specializing in Artificial Intelligence, Machine Learning,
-              Computer Vision, Robotics and Multimedia Artistry. Passionate about pushing the boundaries of AI.
+              Co-Founder of VokeAI, Final-year undergraduate at IIT (ISM) Dhanbad, specializing in Artificial Intelligence, Machine Learning,
+              Computer Vision and Multimedia Artistry. Passionate about pushing the boundaries of AI.
             </div>
           </div>
           
