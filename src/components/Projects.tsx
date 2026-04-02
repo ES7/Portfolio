@@ -5,28 +5,28 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Intelligent WhatsApp Bots",
-      description: "Developed WhatsApp Chatbots powered by Google's Gemini Pro for Airline Customer Service and YouTube Video Summarization.",
+      title: "Smartwatch Operating System",
+      description: "Developed a custom operating system for smartwatches using python and then using Industrial Standards (asm, c).",
       image: "\p1.png",
-      tags: ["Flask", "Twilio", "Gemini", "Python"],
-      github: "https://github.com/ES7/Intelligent-WhatsApp-Bots",
+      tags: ["OS", "Embedded Systems", "Assembly", "Python"],
+      github: "https://github.com/ES7/smartwatch-OS",
       // demo: "https://demo.ebadhsayed.com/nav"
     },
     {
       title: "Stable Diffusion from Scratch",
-      description: "Implemented Stable Diffusion model from scratch using PyTorch and implemented Fine-Tuned versions of the model to run locally.",
+      description: "About Autonomous GitHub repository analyst built with a ReAct agent loop from scratch — no LangChain. Powered by Gemini Flash + PyGithub.",
       image: "\p2.png",
-      tags: ["PyTorch", "Vision", "LLMs", "AI"],
-      github: "https://github.com/ES7/Stable-Diffusion-from-Scratch",
+      tags: ["Agentic AI", "Gemini", "GPT", "Multi Agent Systems"],
+      github: "https://github.com/ES7/Github-Repo-Analyst-Agent",
       // demo: "https://demo.ebadhsayed.com/medical"
     },
     {
-      title: "The AI-Orchestra",
-      description: "Implemented RNN, LSTM, GRU networks to generate melodies, explained the entire process of music generation and the Music Theory.",
+      title: "Stable Diffusion from Scratch",
+      description: "Implemented Stable Diffusion model from scratch using PyTorch and implemented Fine-Tuned versions of the model to run locally.",
       image: "\p3.png",
-      tags: ["Deep Learning", "Music", "RNN", "LSTM", "GRU"],
-      github: "https://github.com/ES7/The-AI-Orchestra",
-      // demo: "https://demo.ebadhsayed.com/detection"
+      tags: ["PyTorch", "Vision", "LLMs", "AI"],
+      github: "https://github.com/ES7/Stable-Diffusion-from-Scratch",
+      // demo: "https://demo.ebadhsayed.com/medical"
     }
   ];
 
