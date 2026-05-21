@@ -5,6 +5,15 @@ import { ExternalLink, Calendar, Eye } from 'lucide-react';
 const MediumArticles = () => {
   const articles = [
     {
+      title: "I Built 5 Python Packages for LLM Developers — Here's Everything I Learned",
+      excerpt: "",
+      date: "May 20, 2026",
+      readTime: "6 min read",
+      views: "2k",
+      url: "https://medium.com/@sayedebad.777/i-built-5-python-packages-for-llm-developers-heres-everything-i-learned-cecbc3bb71be",
+      image: "\a3.png"
+    },
+    {
       title: "Scikit-LLM: Scikit-Learn Meets Large Language Models",
       excerpt: "A deep dive into Scikit-Learn's new library Scikit-LLM which brings the power of LLMs like GPT, Vertex, Gemma, Mistral, Llama, etc into scikit-learn ecosystem.",
       date: "Sep 10, 2024",
@@ -22,15 +31,15 @@ const MediumArticles = () => {
       url: "https://medium.com/@sayedebad.777/building-a-transformer-from-scratch-a-step-by-step-guide-a3df0aeb7c9a",
       image: "\a2.png"
     },
-    {
-      title: "Training the LLaMA Model from Scratch",
-      excerpt: "In this article, we will see how to train the LLaMA model that we built in the previous article.",
-      date: "Jun 18, 2024",
-      readTime: "7 min read",
-      views: "3.6k",
-      url: "https://medium.com/@sayedebad.777/training-the-llama-model-from-scratch-4100d35fa622",
-      image: "\a3.png"
-    }
+    // {
+    //   title: "Training the LLaMA Model from Scratch",
+    //   excerpt: "In this article, we will see how to train the LLaMA model that we built in the previous article.",
+    //   date: "Jun 18, 2024",
+    //   readTime: "7 min read",
+    //   views: "3.6k",
+    //   url: "https://medium.com/@sayedebad.777/training-the-llama-model-from-scratch-4100d35fa622",
+    //   image: "\a3.png"
+    // }
   ];
 
   return (

@@ -13,28 +13,20 @@ const Projects = () => {
       // demo: "https://demo.ebadhsayed.com/nav"
     },
     {
-      title: "Stable Diffusion from Scratch",
-      description: "About Autonomous GitHub repository analyst built with a ReAct agent loop from scratch — no LangChain. Powered by Gemini Flash + PyGithub.",
+      title: "AI Software Company Simulator",
+      description: "A multi-agent AI system that simulates an entire software company. Give it any software requirement — 5 specialized AI agents collaborate to plan, design, build, and review it.",
       image: "\p2.png",
-      tags: ["Agentic AI", "Gemini", "GPT", "Multi Agent Systems"],
-      github: "https://github.com/ES7/Github-Repo-Analyst-Agent",
+      tags: ["Agentic AI", "Orchestrator", "Multi Agent Systems"],
+      github: "https://github.com/ES7/AI-Software-Company-Simulator",
       // demo: "https://demo.ebadhsayed.com/medical"
     },
     {
-      title: "Stable Diffusion from Scratch",
-      description: "Implemented Stable Diffusion model from scratch using PyTorch and implemented Fine-Tuned versions of the model to run locally.",
+      title: "API Health Monitor",
+      description: "A VS Code extension to monitor your AI API usage, cost and health in real-time.",
       image: "\p3.png",
-      tags: ["PyTorch", "Vision", "LLMs", "AI"],
-      github: "https://github.com/ES7/Stable-Diffusion-from-Scratch",
-      // demo: "https://demo.ebadhsayed.com/medical"
-    },
-    {
-      title: "Stable Diffusion from Scratch",
-      description: "Implemented Stable Diffusion model from scratch using PyTorch and implemented Fine-Tuned versions of the model to run locally.",
-      image: "\p3.png",
-      tags: ["PyTorch", "Vision", "LLMs", "AI"],
-      github: "https://github.com/ES7/Stable-Diffusion-from-Scratch",
-      // demo: "https://demo.ebadhsayed.com/medical"
+      tags: ["VS Code", "Python", "API", "AI"],
+      github: "https://github.com/ES7/api-health-monitor",
+      demo: "https://marketplace.visualstudio.com/items?itemName=jallad.api-health-monitor"
     },
   ];
 
