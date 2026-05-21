@@ -85,7 +85,7 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-2xl font-semibold text-white">Contact</h2>
             <p className="mt-4 text-slate-400">
-              For questions about this privacy policy, contact us at <a href="mailto:[TERA EMAIL YAHAN]" className="text-orange-400 hover:text-orange-300">ebad7work@gmail.com</a>.
+              For questions about this privacy policy, contact us at <a href="mailto:ebad7work@gmail.com" className="text-orange-400 hover:text-orange-300">ebad7work@gmail.com</a>.
             </p>
           </section>
         </div>
