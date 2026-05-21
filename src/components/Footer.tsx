@@ -119,7 +119,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center gap-4">
               <a
-                href="/Portfolio/privacy-policy"
+                href="/Portfolio/privacy-policy.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
