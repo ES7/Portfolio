@@ -18,7 +18,7 @@ const Hero = () => {
               AI Engineer & Innovator
             </div>
             <div className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
-              Co-Founder of VokeAI, Final-year undergraduate at IIT (ISM) Dhanbad, specializing in Artificial Intelligence, Machine Learning,
+              Co-Founder of VokeAI, Graduated from IIT Dhanbad, specializing in Artificial Intelligence, Machine Learning,
               Computer Vision and Multimedia Artistry. Passionate about pushing the boundaries of AI.
             </div>
           </div>
