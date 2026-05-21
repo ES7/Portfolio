@@ -101,7 +101,7 @@ const Footer = () => {
                 <Facebook size={24} />
               </a>
               <a
-                href="https://twitter.com/EbadSayed7"
+                href="https://twitter.com/EbadOnAI"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -113,14 +113,23 @@ const Footer = () => {
 
 
           
-          <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              {/* © 2024 Ebad Sayed. All rights reserved. */}
+          <div className="border-t border-gray-700 pt-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+            <p className="text-gray-400 text-sm">
               © 2024 Ebad Sayed. Co-created with AI.
             </p>
-            <p className="text-gray-400 text-sm flex items-center">
-              Made with <Heart size={16} className="mx-1 text-red-500" /> and caffeine-fueled imagination.
-            </p>
+            <div className="flex items-center gap-4">
+              <a
+                href="/Portfolio/privacy-policy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                Privacy Policy
+              </a>
+              <p className="text-gray-400 text-sm flex items-center">
+                Made with <Heart size={16} className="mx-1 text-red-500" /> and caffeine-fueled imagination.
+              </p>
+            </div>
           </div>
         </div>
       </div>
