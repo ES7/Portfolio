@@ -37,7 +37,8 @@ const Projects = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Featured Projects</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Showcasing innovative AI/ML solutions across various domains.
+              {/* Showcasing innovative AI/ML solutions across various domains. */}
+              Some of my recent Agentic AI projects & Hobby projects.
             </p>
           </div>
           
@@ -60,14 +61,14 @@ const Projects = () => {
                       >
                         <Github size={16} className="text-white" />
                       </a>
-                      {/* <a 
+                      <a 
                         href={project.demo}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-white/20 backdrop-blur-sm p-2 rounded-full hover:bg-green-500/80 transition-colors"
                       >
                         <ExternalLink size={16} className="text-white" />
-                      </a> */}
+                      </a>
                     </div>
                   </div>
                 </div>

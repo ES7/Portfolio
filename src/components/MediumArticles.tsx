@@ -6,7 +6,7 @@ const MediumArticles = () => {
   const articles = [
     {
       title: "I Built 5 Python Packages for LLM Developers — Here's Everything I Learned",
-      excerpt: "",
+      excerpt: "These 5 packages are for prompt version control, guaranteed structured output, LLM response validator, Agent execution tracer, and Smart LLM request router.",
       date: "May 20, 2026",
       readTime: "6 min read",
       views: "2k",
