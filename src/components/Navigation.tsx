@@ -1,6 +1,13 @@
-
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+
+const navItems = [
+  { label: 'About', href: '#about' },
+  { label: 'Background', href: '#background' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Articles', href: '#articles' },
+  { label: 'Contact', href: '#contact' }
+];
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -15,23 +22,8 @@ const Navigation = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navItems = [
-    // { label: 'Home', href: '#hero' },
-    { label: 'About', href: '#about' },
-    // { label: 'Skills', href: '#skills' },
-    { label: 'Background', href: '#background' },
-    // { label: 'Education', href: '#education' },
-    // { label: 'Services', href: '#services' },
-    { label: 'Projects', href: '#projects' },
-    { label: 'Articles', href: '#articles' },
-    { label: 'Contact', href: '#contact' }
-  ];
-
   const scrollToSection = (href: string) => {
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+    document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' });
     setIsMobileMenuOpen(false);
   };
 
@@ -48,7 +40,7 @@ const Navigation = () => {
               Ebad Sayed
             </span>
           </div>
-          
+
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
@@ -57,8 +49,8 @@ const Navigation = () => {
                   key={item.label}
                   onClick={() => scrollToSection(item.href)}
                   className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                    isScrolled 
-                      ? 'text-gray-700 hover:text-blue-600' 
+                    isScrolled
+                      ? 'text-gray-700 hover:text-blue-600'
                       : 'text-gray-300 hover:text-white'
                   }`}
                 >
@@ -67,7 +59,7 @@ const Navigation = () => {
               ))}
             </div>
           </div>
-          
+
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
@@ -81,7 +73,7 @@ const Navigation = () => {
           </div>
         </div>
       </div>
-      
+
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white shadow-lg">

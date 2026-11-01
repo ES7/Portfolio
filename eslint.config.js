@@ -25,5 +25,13 @@ export default tseslint.config(
       ],
       "@typescript-eslint/no-unused-vars": "off",
     },
+  },
+  {
+    // shadcn/ui files export style helpers (e.g. buttonVariants) next to their
+    // components by design; this rule only affects dev hot-reload, not the site.
+    files: ["src/components/ui/**/*.{ts,tsx}"],
+    rules: {
+      "react-refresh/only-export-components": "off",
+    },
   }
 );

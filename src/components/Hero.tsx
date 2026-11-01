@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, Github, Linkedin, Instagram } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Instagram, Twitter } from 'lucide-react';
 const Hero = () => {
   return <section className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white relative overflow-hidden">
       {/* Animated background elements */}
@@ -24,11 +24,17 @@ const Hero = () => {
           </div>
           
           <div className="flex justify-center space-x-6 mb-12 animate-fade-in delay-300">
+            {/* <a href="https://habivox.in" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 hover:scale-110">
+              <img src={`${import.meta.env.BASE_URL}habivox.png`} alt="HabiVox" className="w-6 h-6 max-w-none rounded-md" />
+            </a> */}
             <a href="https://github.com/ES7" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 hover:scale-110">
               <Github size={24} />
             </a>
             <a href="https://www.linkedin.com/in/ebad-sayed-0861a6227/" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 hover:scale-110">
               <Linkedin size={24} />
+            </a>
+            <a href="https://x.com/EbadOnAI" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 hover:scale-110">
+              <Twitter size={24} />
             </a>
             <a href="https://instagram.com/adorable_jallad" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 hover:scale-110">
               <Instagram size={24} />
